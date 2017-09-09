@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import 'rxjs/Rx'
 import { BackandService } from '@backand/angular2-sdk'
 //npm install --save @ionic-native/google-plus
-import { GooglePlus } from '@ionic-native/google-plus';
+//import { GooglePlus } from '@ionic-native/google-plus';
 //import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
 //import { FacebookService, InitParams, LoginResponse } from 'ngx-facebook';
 
@@ -19,7 +19,7 @@ export class SignupPage {
   confirmPassword: string = '';
   userData: any = {};
 
-  constructor(private backand: BackandService, private googlePlus: GooglePlus) {
+  constructor(private backand: BackandService) {
     console.log('signup');
 
     // if you want Ionic web app to be usuable if shared as link in Facebook
