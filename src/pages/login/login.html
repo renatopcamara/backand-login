@@ -29,7 +29,7 @@
 
     <button ion-button (click)="getAuthTokenSimple()" color="success">Token Auth</button>
     <button ion-button (click)="useAnonymousAuth()" color="danger">Anonymous Auth</button>
-    <div class="button-bar">
+<!--    <div class="button-bar">
         <button ion-button class="icon-left ion-social-facebook" color="positive" (click)="socialSignin('facebook')" type="button">
             <ion-icon name="logo-facebook"></ion-icon>
             Facebook
@@ -42,7 +42,7 @@
             <ion-icon name="logo-google"></ion-icon>
             Google
         </button>
-    </div>
+    </div> -->
     <br/>
     <div>
         <label [class.alert]="is_auth_error" [class.alert-danger]="is_auth_error">{{auth_status}}</label>

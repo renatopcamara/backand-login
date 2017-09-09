@@ -9,8 +9,8 @@ import { BackandService } from '@backand/angular2-sdk'
 })
 export class LoginPage {
 
-  username:string = 'ionic2@backand.io';
-  password:string = '123456';
+  username:string = null;
+  password:string = null;
   auth_type:string = "N/A";
   is_auth_error:boolean = false;
   auth_status:string = null;
